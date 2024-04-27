@@ -49,6 +49,22 @@ iframe {
     border: none;
 }
 
+
+@media screen and (max-width: 600px) {
+    .contact_container {
+        flex-direction: column;
+        /* schimbarea layout-ului pentru ecrane mici */
+    }
+
+    .column1_contact,
+    .column2_contact {
+        flex-basis: 100%;
+        /* resetarea flex-basis-ului pentru a ocupa întreaga lățime pe ecrane mici */
+        margin-bottom: 20px;
+        /* adăugarea unui spațiu între coloane pe ecrane mici */
+    }
+}
+
 /* Style services */
 .serviciu {
     display: inline-block;
