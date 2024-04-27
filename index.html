@@ -2,29 +2,13 @@
 <html lang="en">
 
 <head>
-
-
-    <!--Start of Tawk.to Script-->
-    <script type="text/javascript">
-        var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();
-        (function () {
-            var s1 = document.createElement("script"), s0 = document.getElementsByTagName("script")[0];
-            s1.async = true;
-            s1.src = 'https://embed.tawk.to/662a7387a0c6737bd1305a8b/1hsat6igj';
-            s1.charset = 'UTF-8';
-            s1.setAttribute('crossorigin', '*');
-            s0.parentNode.insertBefore(s1, s0);
-        })();
-    </script>
-    <!--End of Tawk.to Script-->
-</head>
-
-<head>
     <title>Briliant Clean</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
     <style>
         body,
         h1,
@@ -50,6 +34,20 @@
             opacity: 1
         }
     </style>
+
+    <!--Start of Tawk.to Script-->
+    <script type="text/javascript">
+        var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();
+        (function () {
+            var s1 = document.createElement("script"), s0 = document.getElementsByTagName("script")[0];
+            s1.async = true;
+            s1.src = 'https://embed.tawk.to/662a7387a0c6737bd1305a8b/1hsat6igj';
+            s1.charset = 'UTF-8';
+            s1.setAttribute('crossorigin', '*');
+            s0.parentNode.insertBefore(s1, s0);
+        })();
+    </script>
+    <!--End of Tawk.to Script-->
 </head>
 
 <body>
@@ -89,8 +87,8 @@
         <div class="w3-container" style="margin-top:80px" id="showcase">
             <h1 class="w3-jumbo"><b>Renovări de la A la Z</b></h1>
             <h1 class="w3-xxxlarge w3-text-orange"><b>Interior + exterior</b></h1>
-            <h1 class="w3-xxxlarge w3-text-blue"><b>Sunați-ne la: <a href="tel:0799127329">0799127329</a></b></h1>
-            <hr style="width:50px;border:5px solid #d35916" class="w3-round">
+            <h1 class="w3-xxxlarge w3-text-blue"><b>Sunați-ne la: <a href="tel:+40799127329">0799127329</a></b></h1>
+            <hr style="width:850px;border:5px solid #d35916" class="w3-round">
         </div>
 
         <!-- Photo grid (modal) -->
@@ -117,129 +115,76 @@
             </div>
         </div>
 
-        <!-- Services -->
-        <!-- <div class="w3-container" id="services" style="margin-top:75px">
-            <h1 class="w3-xxxlarge w3-text-blue"><b>Servicii</b></h1>
-            <hr style="width:50px;border:5px solid #d35916" class="w3-round">
-            <p>We are a interior design service that focus on what's best for your home and what's best for you!</p>
-            <p>Some text about our services - what we do and what we offer. We are lorem ipsum consectetur adipiscing
-                elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-                nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
-                dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-                occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
-                consectetur adipiscing elit, sed do eiusmod tempor
-                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                laboris nisi ut aliquip ex ea commodo consequat.
-            </p>
-        </div> -->
+        <!-- The Contact Section -->
+        <style>
+            .container {
+                max-width: 800px;
+                margin: auto;
+                display: flex;
+            }
 
-        <!-- Designers -->
-        <!-- <div class="w3-container" id="designers" style="margin-top:75px">
-            <h1 class="w3-xxxlarge w3-text-blue"><b>Designers.</b></h1>
-            <hr style="width:50px;border:5px solid #d35916" class="w3-round">
-            <p>The best team in the world.</p>
-            <p>We are lorem ipsum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-                magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-                commodo consequat. Duis aute irure
-                dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-                occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
-                consectetur adipiscing elit, sed do eiusmod tempor
-                incididunt ut labore et quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                consequat.
-            </p>
-            <p><b>Our designers are thoughtfully chosen</b>:</p>
-        </div> -->
+            .column1 {
+                flex: 1;
+                display: flex;
+                align-items: center;
+                /* Center content vertically */
+                justify-content: center;
+                /* Center content horizontally */
+                font-size: 20px;
+            }
 
-        <!-- The Team -->
-        <!-- <div class="w3-row-padding w3-grayscale">
-            <div class="w3-col m4 w3-margin-bottom">
-                <div class="w3-light-grey">
-                    <img src="/w3images/team2.jpg" alt="John" style="width:100%">
-                    <div class="w3-container">
-                        <h3>John Doe</h3>
-                        <p class="w3-opacity">CEO & Founder</p>
-                        <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque
-                            elementum.</p>
+            .column2 {
+                flex: 1;
+                display: flex;
+                justify-content: center;
+                /* Center content horizontally */
+            }
+
+            iframe {
+                width: 80%;
+                /* Ajustează lățimea iframe-ului */
+                height: 200px;
+                /* Ajustează înălțimea iframe-ului */
+                border: none;
+                /* Elimină bordura iframe-ului */
+            }
+        </style>
+
+        <hr style="width:850px;border:5px solid #d35916" class="w3-round">
+        <div class="w3-container w3-content w3-padding-64" style="max-width:800px" id="contact">
+
+            <div class="container">
+                <div class="column1">
+                    <div>
+                        <h2>CONTACT:</h2><br>
+                        <i class="fa fa-map-marker"></i> București, România<br>
+                        <i class="fa fa-phone"></i> Telefon: <a href="tel:+40799127329">+40799127329</a><br>
+                        <i class="fa fa-envelope"> </i>
+                        <a href="mailto:briliantcleansolutions@gmail.com">
+                            briliantcleansolutions@gmail.com
+                        </a>
+
                     </div>
+
+                </div>
+                <div class="column2">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d182321.82042004252!2d25.929481835357393!3d44.43770675696392!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40b1f93abf3cad4f%3A0xac0632e37c9ca628!2sBucharest!5e0!3m2!1sen!2sro!4v1714066875016!5m2!1sen!2sro"
+                        width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
             </div>
-            <div class="w3-col m4 w3-margin-bottom">
-                <div class="w3-light-grey">
-                    <img src="/w3images/team1.jpg" alt="Jane" style="width:100%">
-                    <div class="w3-container">
-                        <h3>Jane Doe</h3>
-                        <p class="w3-opacity">Designer</p>
-                        <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque
-                            elementum.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="w3-col m4 w3-margin-bottom">
-                <div class="w3-light-grey">
-                    <img src="/w3images/team3.jpg" alt="Mike" style="width:100%">
-                    <div class="w3-container">
-                        <h3>Mike Ross</h3>
-                        <p class="w3-opacity">Architect</p>
-                        <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque
-                            elementum.</p>
-                    </div>
-                </div>
-            </div>
-        </div> -->
 
-        <!-- Packages / Pricing Tables -->
-        <!-- <div class="w3-container" id="packages" style="margin-top:75px">
-            <h1 class="w3-xxxlarge w3-text-blue"><b>Packages.</b></h1>
-            <hr style="width:50px;border:5px solid #d35916" class="w3-round">
-            <p>Some text our prices. Lorem ipsum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                aliquip ex ea commodo consequat. Duis aute irure</p>
-        </div> -->
-
-        <!-- <div class="w3-row-padding">
-            <div class="w3-half w3-margin-bottom">
-                <ul class="w3-ul w3-light-grey w3-center">
-                    <li class="w3-dark-grey w3-xlarge w3-padding-32">Basic</li>
-                    <li class="w3-padding-16">Floorplanning</li>
-                    <li class="w3-padding-16">10 hours support</li>
-                    <li class="w3-padding-16">Photography</li>
-                    <li class="w3-padding-16">20% furniture discount</li>
-                    <li class="w3-padding-16">Good deals</li>
-                    <li class="w3-padding-16">
-                        <h2>$ 199</h2>
-                        <span class="w3-opacity">per room</span>
-                    </li>
-                    <li class="w3-light-grey w3-padding-24">
-                        <button class="w3-button w3-white w3-padding-large w3-hover-black">Sign Up</button>
-                    </li>
-                </ul>
-            </div>
-
-            <div class="w3-half">
-                <ul class="w3-ul w3-light-grey w3-center">
-                    <li class="w3-blue w3-xlarge w3-padding-32">Pro</li>
-                    <li class="w3-padding-16">Floorplanning</li>
-                    <li class="w3-padding-16">50 hours support</li>
-                    <li class="w3-padding-16">Photography</li>
-                    <li class="w3-padding-16">50% furniture discount</li>
-                    <li class="w3-padding-16">GREAT deals</li>
-                    <li class="w3-padding-16">
-                        <h2>$ 249</h2>
-                        <span class="w3-opacity">per room</span>
-                    </li>
-                    <li class="w3-light-grey w3-padding-24">
-                        <button class="w3-button w3-blue w3-padding-large w3-hover-black">Sign Up</button>
-                    </li>
-                </ul>
-            </div>
-        </div> -->
+        </div>
 
         <!-- End page content -->
     </div>
 
     <!-- W3.CSS Container -->
     <div class="w3-light-grey w3-container w3-padding-32" style="margin-top:75px;padding-right:58px">
-        <p class="w3-right">© 2024 BriliantClean</p>
+        <!-- <p class="w3-center"></p> -->
+        <p class="w3-right">© 2024 BriliantClean, <a href="pagini/terms-and-conditions.html"> Termeni &amp;
+                Condiții</a></p>
     </div>
 
     <script>
