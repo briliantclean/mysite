@@ -25,6 +25,6 @@
 - Glet
 - Montaj plăci beton
 - Anvelopări
-- Achimbare yale
+- Schimbare yale
 - Sudură
 - Montaj rigips
